@@ -1,0 +1,10 @@
+[package]
+name = "kokomi"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iced = { version = "0.10", features = ["tokio"] }
+objc = "0.2"
+chrono = "0.4"
+ctrlc = "3.2"
